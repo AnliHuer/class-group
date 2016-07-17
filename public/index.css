@@ -1,0 +1,55 @@
+body {
+    width: 1024px;
+    margin: 100px auto;
+    background-color: RGB(0, 0, 0);
+    color: RGB(0, 0, 0);
+}
+
+.room {
+    background-color: RGB(252, 248, 227);
+    padding: 30px;
+    margin: 10px;
+}
+
+.name {
+    margin: 10px;
+    display: inline-block;
+    -webkit-transition: transform 0.5s;
+}
+
+.name:hover {
+    -webkit-transform: scale(1.25, 1.25);
+}
+
+.box{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.one {
+    background-color: RGB(222, 185, 150);
+}
+
+.two {
+    background-color: RGB(183, 181, 225);
+}
+
+.three {
+    background-color: RGB(176, 218, 189);
+}
+
+.four {
+    background-color: RGB(246, 189, 178);
+}
+
+.five {
+    background-color: RGB(156, 217, 218);
+}
+
+.divide-class {
+    background-color: RGB(236, 124, 132);
+    width: 100%;
+    border: 0;
+}
