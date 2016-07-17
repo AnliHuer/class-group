@@ -15,14 +15,16 @@ function generateRandomNumber() {
 $(function () {
   var button = $('.divide-class');
   var names = $('.name');
+  var flag = true;
 
   button.on('click', function () {
-    var randomNumbers = generateRandomNumber().split(',');
-
-    for (var i = 0; i < 24; i++) {
-      $('#' + randomNumbers[i]).appendTo('.meeting-room');
+    if(flag){
+      var randomNumbers = generateRandomNumber().split(',');
+      for (var i = 0; i < 24; i++) {
+        $('#' + randomNumbers[i]).appendTo('.meeting-room');
+      }
+      flag = !flag;
     }
-
   });
 });
 
